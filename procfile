@@ -1,1 +1,1 @@
-worker: python shkibbot.py
+worker: shkibbot.py
