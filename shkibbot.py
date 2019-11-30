@@ -11,7 +11,7 @@ markup_menu.add(btn_adress, btn_delivery, btn_payment)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    bot.send_message(message, "Здарова! Хочу показать чему научился! Начнем?", reply_markup =markup_menu)
+    bot.reply_to(message, "Здарова! Хочу показать чему научился! Начнем?", reply_markup =markup_menu)
 
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
