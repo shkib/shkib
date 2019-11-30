@@ -1,5 +1,5 @@
 import telebot;
-import cons
+
 from telebot import types
 bot = telebot.TeleBot('1026954843:AAHIe857Stm4VsCpFlG6tH1QQht4A724lPM');
 
